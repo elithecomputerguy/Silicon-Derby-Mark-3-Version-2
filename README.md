@@ -9,4 +9,7 @@ A "tether" script was created so that if the vehicle loses communication with th
 
 The video stream has been set to 1080 at 30fps which seems to be smoother than streaming lower resolutions
 
-Full documentation to come..
+Created a single python script to start other scripts when the vehicle boots.  Add autostart.py to /etc/rc.local (sudo nano /etc/rc.local)
+Then add new scripts that should start on boot to autostart.py
+
+Full documentation to come...
